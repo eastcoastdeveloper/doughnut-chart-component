@@ -1,0 +1,27 @@
+{
+  "data": [
+    {
+      "numbers": [
+        25,
+        15,
+        20,
+        15,
+        30
+      ],
+      "labels": [
+        "label 11",
+        "label 12",
+        "label 13",
+        "label 14",
+        "label 15"
+      ],
+      "colors": [
+        "#9B2335",
+        "#DFCFBE",
+        "#E15D44",
+        "#55B4B0",
+        "#5B5EA6"
+      ]
+    }
+  ]
+}

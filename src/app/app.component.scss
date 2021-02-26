@@ -1,0 +1,48 @@
+#doughnut-chart-ui {
+  margin: 30px auto 0 auto;
+  max-width: 750px;
+  font: normal 12px sans-serif;
+
+  .chart:nth-child(2) {
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+  }
+}
+
+.wrapper {
+  display: flex;
+  transform: translate(-45px, 0);
+  > div:first-child {
+    transform: scale(0.8);
+  }
+}
+
+.chart {
+  width: 300px;
+  margin: 0 auto;
+  padding: 20px 0;
+  .color-wrapper {
+    display: grid;
+    margin-right: 10px;
+  }
+  .color-ref {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+  }
+  .chart-specs {
+    display: flex;
+    transform: translateX(-30px);
+  }
+}
+.label-ref,
+.percent {
+  display: grid;
+  > div {
+    white-space: nowrap;
+  }
+}
+
+.percent {
+  margin-left: 10px;
+}
