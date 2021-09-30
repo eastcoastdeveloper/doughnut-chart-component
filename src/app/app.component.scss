@@ -125,6 +125,8 @@ h4 {
   }
   .category+div {
     float: none;
+    max-width: 275px;
+    margin: 0 auto;
   }
 
   .chart {
@@ -136,7 +138,7 @@ h4 {
 
     .category {
       padding-left: 20px;
-      margin: 20px 0 0 0;
+      margin: 0;
     }
   }
 
