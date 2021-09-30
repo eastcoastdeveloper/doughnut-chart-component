@@ -1,27 +1,10 @@
 {
   "data": [
-    {
-      "numbers": [
-        55,
-        0,
-        0,
-        15,
-        30
-      ],
-      "labels": [
-        "label 6",
-        "label 7",
-        "label 8",
-        "label 9",
-        "label 10"
-      ],
-      "colors": [
-        "#9B2335",
-        "#5B5EA6",
-        "#E15D44",
-        "#55B4B0",
-        "#DFCFBE"
-      ]
-    }
+      {
+          "category": "ROI",
+          "numbers": [25,15,20,15,30],
+          "labels": ["Writing Code", "Strategy", "Overhead", "QA", "Insurance"],
+          "colors": ["#9B2335", "#5B5EA6", "#E15D44", "#55B4B0", "#DFCFBE"]
+      }
   ]
 }
