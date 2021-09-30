@@ -84,6 +84,8 @@ h4 {
   #doughnut-chart-ui {
     display: block;
     margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
 
     .chart {
       padding: 0;
@@ -116,7 +118,11 @@ h4 {
   }
 }
 
-@media screen and (max-width:600px) {
+@media screen and (max-width:600px){
+
+  #doughnut-chart-ui {
+    max-width: 350px;
+  }
   .category+div {
     float: none;
   }
