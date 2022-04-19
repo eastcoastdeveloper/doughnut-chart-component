@@ -9,9 +9,9 @@ import { ChartsModule } from 'ng2-charts';
 import { DoughnutChartComponent } from './doughnut-chart/doughnut-chart.component';
 
 @NgModule({
-  imports:      [ BrowserModule, FormsModule, ChartsModule ],
+  imports: [BrowserModule, FormsModule, ChartsModule],
   schemas: [NO_ERRORS_SCHEMA],
-  declarations: [ AppComponent, DoughnutChartComponent ],
-  bootstrap:    [ AppComponent ]
+  declarations: [AppComponent, DoughnutChartComponent],
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}

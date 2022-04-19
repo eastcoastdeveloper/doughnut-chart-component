@@ -58,7 +58,7 @@ h4 {
 .percent {
   display: grid;
 
-  >div {
+  > div {
     white-space: nowrap;
     color: #ffffff;
   }
@@ -80,7 +80,7 @@ h4 {
   }
 }
 
-@media screen and (max-width:768px) {
+@media screen and (max-width: 768px) {
   #doughnut-chart-ui {
     display: block;
     margin-bottom: 20px;
@@ -113,17 +113,16 @@ h4 {
     padding-left: 20px;
   }
 
-  .category+div {
+  .category + div {
     float: left;
   }
 }
 
-@media screen and (max-width:600px){
-
+@media screen and (max-width: 600px) {
   #doughnut-chart-ui {
     max-width: 350px;
   }
-  .category+div {
+  .category + div {
     float: none;
     max-width: 275px;
     margin: 0 auto;
