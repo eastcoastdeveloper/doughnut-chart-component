@@ -3,6 +3,17 @@ h4 {
   font: normal 17px sans-serif;
   margin: 20px 0;
 }
+.website {
+  font: normal 14px sans-serif;
+  letter-spacing: 0.5px;
+  display: block;
+  cursor: pointer;
+  background-color: #313b3f;
+  color: #fcdb42;
+  padding: 10px;
+  text-decoration: none;
+  text-align: right;
+}
 
 #doughnut-chart-ui {
   font: normal 12px sans-serif;
@@ -83,9 +94,7 @@ h4 {
 @media screen and (max-width: 768px) {
   #doughnut-chart-ui {
     display: block;
-    margin-bottom: 20px;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 20px;
 
     .chart {
       padding: 0;
@@ -121,6 +130,7 @@ h4 {
 @media screen and (max-width: 600px) {
   #doughnut-chart-ui {
     max-width: 350px;
+    margin: 15px auto;
   }
   .category + div {
     float: none;
