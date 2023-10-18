@@ -1,5 +1,5 @@
-import { Component, ElementRef, Input, OnInit, ViewChild } from '@angular/core';
-import { ChartType, Chart } from 'chart.js';
+import { Component, ElementRef, Input, ViewChild } from '@angular/core';
+import {Chart } from 'chart.js';
 
 @Component({
   selector: 'doughnut-chart',
