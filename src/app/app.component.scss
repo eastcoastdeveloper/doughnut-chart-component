@@ -22,7 +22,7 @@ h4 {
   align-items: center;
   justify-content: center;
   background-color: #313b3f;
-  margin: 15px auto 60px auto;
+  margin: 0 auto;
   padding: 20px 0;
   border-radius: 6px;
 }
@@ -94,7 +94,7 @@ h4 {
 @media screen and (max-width: 768px) {
   #doughnut-chart-ui {
     display: block;
-    margin: 20px;
+    margin: 15px 20px 65px 20px;
 
     .chart {
       padding: 0;
@@ -130,7 +130,7 @@ h4 {
 @media screen and (max-width: 600px) {
   #doughnut-chart-ui {
     max-width: 350px;
-    margin: 15px auto;
+    margin: 15px auto 70px auto
   }
   .category + div {
     float: none;
