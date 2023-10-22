@@ -3,9 +3,10 @@ html, body {
 }
 
 footer {
-  position: absolute;
+  position: fixed;
   bottom: 0;
   border-top: 1px solid #313b3f;
+  background-color: #ffffff;
   padding: 5px 5px 1px 5px;
   box-sizing: border-box;
   width: 100%;
